@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding and border are included in the total width */
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: -5px; /* Adjusts the position of the error message */
+    margin-bottom: 10px; /* Adds space below the error message */
+    display: block; /* Ensures it takes up space */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #5cb85c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #4cae4c;
+}
+
+#response {
+    margin-top: 10px;
+    font-weight: bold;
+    color: green; /* Make the success message green */
+    display: none; /* Initially hidden */
+}
